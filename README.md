@@ -17,7 +17,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/johnnites/XrayR-release/master
 # Docker 安装
 
 ```
-docker pull crackair/xrayr:latest && docker run --restart=always --name xrayr -d -v ${PATH_TO_CONFIG}/config.yml:/etc/XrayR/config.yml --network=host crackair/xrayr:latest
+docker pull johnnites/xrayr:latest && docker run --restart=always --name xrayr -d -v ${PATH_TO_CONFIG}/config.yml:/etc/XrayR/config.yml --network=host johnnites/xrayr:latest
 ```
 
 # Docker compose 安装
